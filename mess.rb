@@ -1,15 +1,11 @@
 class PERSON
   LIFE_stage = {childhood:12, teenager:19, adult:50}
   LEGAL_AGE = 18
-  attr_accessor :name
+  attr_accessor :name, :age
 
     def initialize(name, age)
       @name = name
       @age = age
-    end
-    
-    def age
-      @age
     end
 
     def life_stage
