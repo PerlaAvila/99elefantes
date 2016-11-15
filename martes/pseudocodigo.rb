@@ -1,7 +1,4 @@
-=begin
-"student" es una variable a la cual le asignamos un "hash" que contiene 4 arreglos más, los cuales
-consisten en agrupar 4 estudiantes con su respectiva calificación.
-=end
+
 
 students = [[["Eliezer", 7], ["Mariam", 7], ["Deborah", 10], ["Harley", 7]],
  [["D'angelo", 10], ["Brittany", 8], ["Hubert", 7], ["Erling", 9]],
