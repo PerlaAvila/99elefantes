@@ -18,7 +18,5 @@ def deaf_grandma
   while bye = 3
     puts "D'oh, adios mijito"
     break ; end
-
-
 end
 deaf_grandma
