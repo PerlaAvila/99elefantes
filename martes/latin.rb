@@ -17,6 +17,8 @@ def pig_latin_translator
 
   if vowels.include?(pig_latin[0])
     pig_latin + 'way'
+  elsif consonants.include?(pig_latin[0]) &&  consonants.include?(pig_latin[1]) && consonants.include?(pig_latin[2])
+    pig_latin[3..-1] + pig_latin[0..2] + 'ay'
   elsif consonants.include?(pig_latin[0]) && consonants.include?(pig_latin[1])
     pig_latin[2..-1] + pig_latin[0..1] + 'ay'
   elsif consonants.include?(pig_latin[0])
@@ -41,6 +43,8 @@ def pig_latin_translator_2
 
   if vowels.include?(words[0])
     words + 'way'
+  elsif consonants.include?(words[0]) &&  consonants.include?(words[1]) && consonants.include?(words[2])
+    words[3..-1] + words[0..2] + 'ay'
   elsif consonants.include?(words[0]) && consonants.include?(words[1])
     words[2..-1] + words[0..1] + 'ay'
   elsif consonants.include?(words[0])
